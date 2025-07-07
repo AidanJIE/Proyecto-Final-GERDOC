@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Ventas e Inventario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('tienda.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contenido {
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        h1 {
+            color: #0077cc;
+            margin-bottom: 30px;
+        }
+
+        .menu {
+            margin-top: 20px;
+        }
+
+        .menu a {
+            display: inline-block;
+            background-color: #0077cc;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenido">
+        <h1>Bienvenido al Sistema de Ventas</h1>
+        <div class="menu">
+            <a href="login.jsp">Iniciar Sesión</a>
+            <a href="registro.jsp">Registrarse</a>
+        </div>
+    </div>
+</body>
+</html>
